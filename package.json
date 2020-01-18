@@ -1,0 +1,19 @@
+{
+  "name": "esl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass ./scss/styles.scss  ./css/styles.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
+
+

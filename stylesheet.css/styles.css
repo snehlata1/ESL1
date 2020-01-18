@@ -1,0 +1,13 @@
+header {
+  background: red;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=styles.css.map */
