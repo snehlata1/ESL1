@@ -34,6 +34,7 @@ $desktop-width: 1024px;
 $mediaBp1Width: 960px;
 $desktop:992px;
 $tablet:767px;
+$mobiledevice:599px;
 $mediaMinWidth: 480px;
 $smalldevice:375px;
       
@@ -61,7 +62,7 @@ header{
 	a{padding: 15px 32px;
 		color:$font-color;background:$skyblue-color;border-radius: 4px;
 		border: 0;transition: all 0.3s;display: block;width: 100%;
-		max-width: 20%;margin: 14px auto 0;text-decoration: none;
+		max-width: 30%;margin: 14px auto 0;text-decoration: none;
 	&:hover{background:$Sunglo;}
 	}
 }
@@ -92,7 +93,7 @@ header{
 .top-slider{
 	text-align:center;
 	padding-top: 80px;background:$Alabaster;height: 100%;
-	min-height: 750px;
+	min-height: 800px;
 	.main-outer {
 		background: $Blizzard-Blue;
 		padding-top: 50px;max-height: 500px;
@@ -487,7 +488,7 @@ li {
 /***************media quary***********/
 @media screen and (max-width:$mediaMaxWidth){
 .top-slider .main-outer .outer.slick-initialized.slick-slider {
-	bottom: -70px;
+	bottom: 0px;
 }
 .ambituion {
 	background-position: center right;
@@ -506,7 +507,7 @@ img {
 }
 #banner {
 	a{
-		max-width: 30%;
+		max-width: 50%;
 	}
 }
 .boost-student{
@@ -517,7 +518,12 @@ img {
 }
 }
 .top-slider{
-	padding-bottom:150px;min-height:100%;
+	padding-bottom:120px;min-height:100%;
+	.main-outer {
+
+		max-height: 400px;
+		
+	}
 	.img-circle{
 	img {
 	max-width: 75% !important;
@@ -535,7 +541,12 @@ display:none !important;
 }
 @media screen and (max-width:$desktop){
 	.top-slider{
-		padding-bottom:150px;min-height:100%;
+		padding-bottom:120px;min-height:100%;
+		.main-outer {
+
+			max-height: 400px;
+			
+		}
 		.img-circle{
 		img {
 		max-width: 75% !important;
@@ -635,6 +646,11 @@ h2 {
 	}
 }
 }
+@media screen and (max-width:$mobiledevice){
+	.main-outer {
+		max-height: 350px !important;
+	}
+}
 @media screen and (max-width:$mediaMinWidth){
 	#banner {
 	h1 {
@@ -656,6 +672,9 @@ h2 {
 .accodination{
 	h2{font-size:25px;}
 }
+.main-outer {
+	max-height: 300px !important;
+}
 .botom-slider{
 	h2{font-size:25px;}
 }
@@ -672,14 +691,11 @@ h2 {
 	background-position: 80% 0;
 }
 .top-slider{
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 	padding-top: 50px;
 	 img {
 	max-width: 67% !important;
 }
-.outer.slick-initialized.slick-slider {
 
-	bottom: -32px !important;
-}
 }
 }

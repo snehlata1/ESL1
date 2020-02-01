@@ -10016,7 +10016,7 @@ header .right-column .btn.btn-danger:hover {
   transition: all 0.3s;
   display: block;
   width: 100%;
-  max-width: 20%;
+  max-width: 30%;
   margin: 14px auto 0;
   text-decoration: none;
 }
@@ -10057,7 +10057,7 @@ header .right-column .btn.btn-danger:hover {
   padding-top: 80px;
   background: #f8f8f8;
   height: 100%;
-  min-height: 750px;
+  min-height: 800px;
 }
 .top-slider .main-outer {
   background: #BBE0F2;
@@ -10502,7 +10502,7 @@ header .right-column .btn.btn-danger:hover {
 /***************media quary***********/
 @media screen and (max-width: 1199px) {
   .top-slider .main-outer .outer.slick-initialized.slick-slider {
-    bottom: -70px;
+    bottom: 0px;
   }
 
   .ambituion {
@@ -10520,7 +10520,7 @@ header .right-column .btn.btn-danger:hover {
   }
 
   #banner a {
-    max-width: 30%;
+    max-width: 50%;
   }
 
   .boost-student .text-column h3 {
@@ -10528,8 +10528,11 @@ header .right-column .btn.btn-danger:hover {
   }
 
   .top-slider {
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     min-height: 100%;
+  }
+  .top-slider .main-outer {
+    max-height: 400px;
   }
   .top-slider .img-circle img {
     max-width: 75% !important;
@@ -10545,8 +10548,11 @@ header .right-column .btn.btn-danger:hover {
 }
 @media screen and (max-width: 992px) {
   .top-slider {
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     min-height: 100%;
+  }
+  .top-slider .main-outer {
+    max-height: 400px;
   }
   .top-slider .img-circle img {
     max-width: 75% !important;
@@ -10659,6 +10665,11 @@ header .right-column .btn.btn-danger:hover {
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 599px) {
+  .main-outer {
+    max-height: 350px !important;
+  }
+}
 @media screen and (max-width: 480px) {
   #banner h1 {
     font-size: 25px;
@@ -10683,6 +10694,10 @@ header .right-column .btn.btn-danger:hover {
     font-size: 25px;
   }
 
+  .main-outer {
+    max-height: 300px !important;
+  }
+
   .botom-slider h2 {
     font-size: 25px;
   }
@@ -10697,14 +10712,11 @@ header .right-column .btn.btn-danger:hover {
   }
 
   .top-slider {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     padding-top: 50px;
   }
   .top-slider img {
     max-width: 67% !important;
-  }
-  .top-slider .outer.slick-initialized.slick-slider {
-    bottom: -32px !important;
   }
 }
 
